@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="John Doe">
+
+
+
+
+
+<title>ManchesterCity-zhengrui</title>
+
+
+
+    <link rel="icon" href="/favicon.ico">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/js/script.js"></script>
+    
+    <script src="/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        
+    
+
+
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+<body>
+    <script>
+        // this function is used to check current theme before page loaded.
+        (() => {
+            const currentTheme = window.localStorage && window.localStorage.getItem('theme') || '';
+            const isDark = currentTheme === 'dark';
+            const pagebody = document.getElementsByTagName('body')[0]
+            if (isDark) {
+                pagebody.classList.add('dark-theme');
+                // mobile
+                document.getElementById("mobile-toggle-theme").innerText = "· Dark"
+            } else {
+                pagebody.classList.remove('dark-theme');
+                // mobile
+                document.getElementById("mobile-toggle-theme").innerText = "· Light"
+            }
+        })();
+    </script>
+
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/">Bentham&#39;s Blog</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/category">Categories</a>
+                
+                    <a class="menu-item" href="/tag">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/">Bentham&#39;s Blog</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/category">Categories</a>
+                
+                    <a class="menu-item" href="/tag">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+            <div class="main">
+                <div class="container">
+    
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title"></h1>
+            
+                <div class="post-meta">
+                    
+                        Author: <a itemprop="author" rel="author" href="/">John Doe</a>
+                    
+
+                    
+                        <span class="post-time">
+                        Date: <a href="#">July 24, 2024&nbsp;&nbsp;18:28:25</a>
+                        </span>
+                    
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <p>Markdown 是一种轻量级标记语言，具有简洁、易读易写的特点，常用的标记符号不超过十个。以下是一些常见的 Markdown 语法：</p>
+<ol>
+<li><strong>标题</strong>：使用 <code>#</code> 号标记标题，<code>#</code> 的个数表示标题级别，一个 <code>#</code> 对应一级标题，两个 <code>#</code> 对应二级标题，以此类推。例如：</li>
+</ol>
+<p>收起</p>
+<p>markdown</p>
+<p>复制</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br></pre></td></tr></table></figure>
+
+<ol start="2">
+<li><strong>列表</strong>：<ul>
+<li>无序列表：使用 <code>-</code>、<code>*</code> 或 <code>+</code> 后加空格来创建无序列表，例如：</li>
+</ul>
+</li>
+</ol>
+<p>收起</p>
+<p>markdown</p>
+<p>复制</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">- 列表项 1</span><br><span class="line">- 列表项 2</span><br><span class="line">* 列表项 3</span><br><span class="line">+ 列表项 4</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>有序列表：使用数字加 <code>.</code> 再加空格来创建有序列表，例如：</li>
+</ul>
+<p>收起</p>
+<p>markdown</p>
+<p>复制</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1. 列表项 1</span><br><span class="line">2. 列表项 2</span><br><span class="line">3. 列表项 3</span><br></pre></td></tr></table></figure>
+
+<ol start="3">
+<li><strong>引用</strong>：通过 <code>&gt;</code> 符号来表示引用，例如：</li>
+</ol>
+<p>收起</p>
+<p>markdown</p>
+<p>复制</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt; 这是引用的内容</span><br></pre></td></tr></table></figure>
+
+<p>引用可以嵌套，只需增加 <code>&gt;</code> 的数量。<br>4. <strong>图片</strong>：使用 <code>!</code> 加 <code>(图片描述)</code> 加 <code>(图片链接)</code> 来插入图片，例如：</p>
+<p>收起</p>
+<p>markdown</p>
+<p>复制</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">!(图片描述文字)(图片链接)</span><br></pre></td></tr></table></figure>
+
+<ol start="5">
+<li><strong>链接</strong>：有行内式和参考式两种形式。<ul>
+<li>行内式链接：在方括号 <code>[]</code> 内写链接文字，紧接着在圆括号 <code>()</code> 内写链接地址，如果需要添加链接标题，可在链接地址后用双引号括起来，例如：</li>
+</ul>
+</li>
+</ol>
+<p>收起</p>
+<p>markdown</p>
+<p>复制</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[链接文字](链接地址 &quot;标题文字&quot;)</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>参考式链接：在链接文字的方括号 <code>[]</code> 后再接上另一个方括号 <code>[]</code>，在第二个方括号里面填入用以辨识链接的标记（可自定义）。然后在文件的任意处，通过方括号（前面可选择性地加上至多三个空格来缩进）、里面输入链接文字、接着一个冒号、一个以上的空格或制表符、链接的网址来定义链接内容。如果需要添加链接标题，可以用单引号、双引号或是括弧包着放在网址后面。此外，还有隐式链接标记，只需在链接文字后面加上一个空的方括号 <code>[]</code> 即可。</li>
+</ul>
+<ol start="6">
+<li><strong>粗体</strong>：使用 <code>**</code> 包裹需要加粗的文字，例如：</li>
+</ol>
+<p>收起</p>
+<p>markdown</p>
+<p>复制</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">**粗体文字**</span><br></pre></td></tr></table></figure>
+
+<ol start="7">
+<li><strong>斜体</strong>：使用 <code>*</code> 包裹需要变为斜体的文字，例如：</li>
+</ol>
+<p>收起</p>
+<p>markdown</p>
+<p>复制</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">*斜体文字*</span><br></pre></td></tr></table></figure>
+
+<ol start="8">
+<li><strong>表格</strong>：使用 <code>|</code> 来分隔列，使用 <code>-</code> 来表示表头与内容的分隔线，例如：</li>
+</ol>
+<p>收起</p>
+<p>markdown</p>
+<p>复制</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">| 表头 1 | 表头 2 | 表头 3 |</span><br><span class="line">| --- | :---: | ---: |</span><br><span class="line">| 内容 1 | 内容 2 | 内容 3 |</span><br></pre></td></tr></table></figure>
+
+<p>其中，<code>:</code> 表示对齐方式，<code>---</code> 表示左对齐，<code>:-:</code> 表示居中对齐，<code>---:</code> 表示右对齐。<br>9. <strong>代码框</strong>：使用三个反引号 &#96;&#96;&#96; 包裹代码，还可以在反引号后面指定代码语言，以实现代码高亮，例如：</p>
+<p>收起</p>
+<p>markdown</p>
+<p>复制</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">```python</span><br><span class="line">    print(&quot;Hello, Markdown!&quot;)</span><br></pre></td></tr></table></figure>
+
+<ol start="10">
+<li><strong>分割线</strong>：可以在一行中使用三个以上的 <code>-</code> 或 <code>*</code> 来创建分割线，例如：</li>
+</ol>
+<p>收起</p>
+<p>markdown</p>
+<p>复制</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">***</span><br></pre></td></tr></table></figure>
+
+<ol start="11">
+<li><strong>删除线</strong>：使用 <code>~~</code> 包裹需要添加删除线的文字，例如：</li>
+</ol>
+<p>收起</p>
+<p>markdown</p>
+<p>复制</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">~~这是要被删除的文字~~</span><br></pre></td></tr></table></figure>
+
+<ol start="12">
+<li><strong>下划线</strong>：在需要添加下划线的文字首尾添加 <code>&lt;u&gt;文本&lt;/u&gt;</code>，例如：</li>
+</ol>
+<p>收起</p>
+<p>markdown</p>
+<p>复制</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;u&gt;这行文字已被添加下划线&lt;/u&gt;</span><br></pre></td></tr></table></figure>
+
+<ol start="13">
+<li><strong>上标和下标</strong>：上标使用 <code>^</code> ，下标使用 <code>~</code> ，例如：<code>x^2</code> 表示上标2，<code>H~2~O</code> 表示下标2。</li>
+<li><strong>数学公式</strong>：使用 <code>$$</code> 包裹公式内容，例如：<code>$$E=mc^2$$</code> 表示质能方程。对于行内公式，可以使用 <code>$</code> 包裹，如 <code>$e=mc^2$</code> 。</li>
+<li><strong>转义字符</strong>：如果要显示特殊符号本身，可在其前加上反斜杠 <code>\</code> 进行转义。</li>
+</ol>
+<p>Markdown 还支持一些高级用法，如绘制流程图、序列图、甘特图等，具体语法可以根据使用的 Markdown 编辑器或相关插件进行学习和使用。不同的 Markdown 编辑器可能会对语法有一些细微的差异或扩展，但基本语法是相似的。</p>
+<p>如果你想更详细地了解 Markdown 语法，可以参考相关的 Markdown 教程或编辑器的帮助文档。同时，通过实际使用和练习，你可以更快地掌握 Markdown 的语法并灵活运用它来编辑文档。</p>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                    <p class="copyright-item">
+                        <span>Author:</span>
+                        <span>John Doe</span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Permalink:</span>
+                        <span><a href="http://example.com/2024/07/24/Markdown%E8%AF%AD%E6%B3%95/">http://example.com/2024/07/24/Markdown%E8%AF%AD%E6%B3%95/</a></span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>License:</span>
+                        <span>Copyright (c) 2019 <a target="_blank" rel="noopener" href="http://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC-4.0</a> LICENSE</span>
+                    </p>
+                
+                
+                     <p class="copyright-item">
+                         <span>Slogan:</span>
+                         <span>Do you believe in <strong>DESTINY</strong>?</span>
+                     </p>
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">back</a>
+                <span>· </span>
+                <a href="/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+                <a class="prev" rel="prev" href="/2024/07/24/HTML/"></a>
+            
+            
+            <a class="next" rel="next" href="/2024/07/20/Learning-of-Programming/">Learning</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+            </div>
+            <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© John Doe | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a></span>
+    </div>
+</footer>
+
+    </div>
+</body>
+
+</html>
