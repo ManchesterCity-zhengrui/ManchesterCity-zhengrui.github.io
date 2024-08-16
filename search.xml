@@ -24,8 +24,8 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title></title>
-    <url>/2024/07/24/Markdown%E8%AF%AD%E6%B3%95/</url>
+    <title>Markdown</title>
+    <url>/2024/07/20/Markdown%E8%AF%AD%E6%B3%95/</url>
     <content><![CDATA[<p>Markdown 是一种轻量级标记语言，具有简洁、易读易写的特点，常用的标记符号不超过十个。以下是一些常见的 Markdown 语法：</p>
 <ol>
 <li><strong>标题</strong>：使用 <code>#</code> 号标记标题，<code>#</code> 的个数表示标题级别，一个 <code>#</code> 对应一级标题，两个 <code>#</code> 对应二级标题，以此类推。例如：</li>
