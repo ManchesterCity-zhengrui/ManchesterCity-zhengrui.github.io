@@ -148,23 +148,78 @@
   <entry>
     <title>HTML</title>
     <url>/2024/07/20/HTML/</url>
-    <content><![CDATA[<p>HTML</p>
-<p>HTML超文本标记语言–HyperText  Markup Language。</p>
+    <content><![CDATA[<h1 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h1><h2 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h2><p>HTML超文本标记语言–HyperText  Markup Language。</p>
 <p>超文本？mean：链接</p>
-<p>标记？也叫标签，带尖括号的文本<br>标签的语法</p>
-<p>       <code>javascript  //指定语言  int main()  &#123;  const int n = 10;  printf(&quot;hello csdn!&quot;);  return 0;  &#125;</code></p>
+<h2 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h2><p>标记？也叫标签，带尖括号的文本<br>标签的语法</p>
+<blockquote>
+<p>加粗 <!-- 加粗 /*这是注释 */ --></p>
+</blockquote>
 ]]></content>
   </entry>
   <entry>
-    <title>HTML</title>
+    <title>Suermap</title>
     <url>/2024/07/20/supermap%E5%85%A8%E5%9B%BDgis%E5%A4%A7%E8%B5%9B/</url>
     <content><![CDATA[<p>Suermap</p>
+<p><a href="https://mp.weixin.qq.com/s/nHNye8_3jJWRONppbkr0qg">https://mp.weixin.qq.com/s/nHNye8_3jJWRONppbkr0qg</a></p>
+<p>六场赛前指导：B站搜917书院GIS学堂</p>
+<p><img src="C:\Users\DELL\AppData\Roaming\marktext\images\2024-08-20-17-33-45-1724146421584.png"></p>
+<p><strong>大赛组别</strong>：制图组、分析组、命题开发组、开发组</p>
+<p><strong>竞赛分组</strong></p>
+<p><strong>制图组</strong></p>
+<p>自由选题，内容不限。通过数据的加工处理和制图的表达手段，创作具有特色风格的专题平面地图。</p>
+<p><strong>分析组</strong></p>
+<p>自由选题，内容不限。通过对空间数据的分析和挖掘，解决行业应用和日常生活中的实际需求。</p>
+<p><strong>命题开发组</strong></p>
+<p>统一命题，提供部分数据，根据题目要求完成GIS 应用系统的功能开发。</p>
+<p><strong>开发组</strong></p>
+<p>自由选题，内容不限。结合当前的主流GIS技术，设计并开发应用系统，体现GIS在各个领域的应用价值。</p>
+<p><strong>赛程安排</strong>22届</p>
+<p>▌报名时间：3月4日-7月31日</p>
+<p>▌作品接收时间：即日起至9月15日</p>
+<p>▌作品评审及成绩公布时间：9月16日-11月30日</p>
+<p><strong>报名方式</strong></p>
+<p>▌报名通道：<a href="http://user.giscontest.com/express%EF%BC%88%E8%AF%B7%E5%9C%A8PC%E7%AB%AF%E5%AE%8C%E6%88%90%E6%8A%A5%E5%90%8D%EF%BC%89">http://user.giscontest.com/express（请在PC端完成报名）</a></p>
+<p><strong>培训安排</strong></p>
+<p>▌培训形式：</p>
+<p>1.公开直播：赛制解析、规则解读、技术辅导。</p>
+<p>2.视频课程：历届优秀作品展示、优秀指导老师经验分享、JavaScript 编程课程。</p>
+<p>3.专场报告：有意愿组织百名以上学生集中收听的高校，可向组织方申请安排大赛专场报告。</p>
+<p>▌培训课程：《SuperMap iDesktop操作与技巧》、《二维WebGIS操作与技巧》、《三维WebGIS操作与技巧》、《制图高手修炼手册》、《空间数据处理全套实操课程》、《15个案例带你玩转GIS空间分析》、《三维GIS工程师必备课程》、《从0到1实现三维WebGIS开发》、《WebGIS开发基础+进阶实战教学》、《移动GIS开发基础+进阶实战教学》等，其中的付费课程可向组委会申请免费听课通道。</p>
+<p><em>关注：917书院GIS学堂<a href="http://edu.supermap.com/">http://edu.supermap.com</a></em></p>
+<p><strong>联系方式</strong></p>
+<p>▌电话：010-59896196（赵老师）</p>
+<p>▌QQ 群：729342023（第22届GIS大赛沟通群）</p>
+<p>▌大赛官网：<a href="http://www.giscontest.com/">http://www.giscontest.com/</a></p>
+<p>▌微信公众号：超爱GIS，了解大赛报名、信息发布、赛制查询和培训资源等信息.（通过该公众号“赛制解析”栏目可查看各竞赛组对作品的具体要求）</p>
+<p><strong>组队</strong></p>
+<p>每组团队由同一所高校的1-4名参赛学生和最多2名指导教师组成</p>
+<p><img src="C:\Users\DELL\AppData\Roaming\marktext\images\2024-08-20-17-42-20-5e81dc6527f16cfcfb944d372d922e1.png"></p>
 ]]></content>
   </entry>
   <entry>
     <title>C++</title>
-    <url>/2024/07/20/C%E5%98%8E%E5%98%8E%EF%BC%88c++%EF%BC%89/</url>
-    <content><![CDATA[<p>C++</p>
+    <url>/2024/07/20/c++%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<h1 id="听课笔记"><a href="#听课笔记" class="headerlink" title="听课笔记"></a>听课笔记</h1><p>笔记网站</p>
+<h2 id="代码、编译和程序"><a href="#代码、编译和程序" class="headerlink" title="代码、编译和程序"></a>代码、编译和程序</h2><h2 id="怎么用记事本写程序"><a href="#怎么用记事本写程序" class="headerlink" title="怎么用记事本写程序"></a>怎么用记事本写程序</h2><p>比如一个代码.txt文件，这个文件在桌面上，先将其改名为代码.cpp，然后我们要打开命令提示符，进入桌面(cd Desktop)运行(g++ 代码.cpp -o 代码.exe)<br>然后桌面则会生成一个代码.exe</p>
+<p>代码 经命令提示符编译成 程序</p>
+<h2 id="c-代码的基础结构"><a href="#c-代码的基础结构" class="headerlink" title="c++代码的基础结构"></a>c++代码的基础结构</h2><p>#include “iostream”<br>using namespace std;</p>
+<p>int main()<br>{<br>    cout &lt;&lt; “hello,world” &lt;&lt; endl;<br>    return 0;<br>}</p>
+<h2 id="单工程多main函数设置"><a href="#单工程多main函数设置" class="headerlink" title="单工程多main函数设置"></a>单工程多main函数设置</h2><p>由于main函数是程序入口，所以工程仅允许一个main函数<br>设置多个main函数：<br>1.是给main改名<br>2.vs给之前的main注释掉<br>3.是clion创建文件时取消掉Add to targets(添加到目标)<br>推荐注释<br><a href="http://www.yuque.com/bigdata-caoyu/newcpp">www.yuque.com/bigdata-caoyu/newcpp</a></p>
+<h2 id="cout打印输出"><a href="#cout打印输出" class="headerlink" title="cout打印输出"></a>cout打印输出</h2><p>例如 ：cout &lt;&lt;输出的内容 &lt;&lt; … &lt;&lt;…&lt;&lt; endl;<br>ps：endl是换行，内容以&lt;&lt;分割<br>输出的内容非数字，必须以双引号包围<br>数字可双引号可不</p>
+<h2 id="代码注释CTRL-k-CTRL-c-取消注释CTRL-k-CTRL-u"><a href="#代码注释CTRL-k-CTRL-c-取消注释CTRL-k-CTRL-u" class="headerlink" title="代码注释CTRL k CTRL c 取消注释CTRL k CTRL u"></a>代码注释CTRL k CTRL c 取消注释CTRL k CTRL u</h2><h2 id="字面常量：被书写到代码内的常量"><a href="#字面常量：被书写到代码内的常量" class="headerlink" title="字面常量：被书写到代码内的常量"></a>字面常量：被书写到代码内的常量</h2><p>‘’单个字符”“多个字符</p>
+<h2 id="标识符和关键字"><a href="#标识符和关键字" class="headerlink" title="标识符和关键字"></a>标识符和关键字</h2><p>标识符：某类实体的符号（名称）</p>
+<h2 id="符号常量"><a href="#符号常量" class="headerlink" title="符号常量"></a>符号常量</h2><p>给常量起一个名字<br>语法：<br>#define 标识符 常量<br>例子：<br>#define PT 20</p>
+<h2 id="变量的基础应用"><a href="#变量的基础应用" class="headerlink" title="变量的基础应用"></a>变量的基础应用</h2><h3 id="变量的生命和赋值"><a href="#变量的生命和赋值" class="headerlink" title="变量的生命和赋值"></a>变量的生命和赋值</h3><p>定义语法：</p>
+<p>变量类型 变量名；<br>int num；<br>赋值：</p>
+<p>变量名 &#x3D; 变量值；<br>num &#x3D; 10；</p>
+<h3 id="变量的特征"><a href="#变量的特征" class="headerlink" title="变量的特征"></a>变量的特征</h3><p>可改变：重新赋值<br>可进行数学运算</p>
+<h3 id="变量的快速定义"><a href="#变量的快速定义" class="headerlink" title="变量的快速定义"></a>变量的快速定义</h3><p>int num &#x3D; 10;<br>int a &#x3D;10, b &#x3D; 20, c &#x3D; 30;</p>
+<h2 id="标识符的命名"><a href="#标识符的命名" class="headerlink" title="标识符的命名"></a>标识符的命名</h2><h3 id="标识符的命名规范"><a href="#标识符的命名规范" class="headerlink" title="标识符的命名规范"></a>标识符的命名规范</h3><p>符号常量英文字母全大写<br>变量不应全大写<br>见名知意<br>下划线命名法：用下划线区别单词，英文单词全小写（一般应用于变量）<br>小驼峰法：从第二个单词开始，首字母大写，若是简短的可全大写（一般应用于变量、函数）<br>大驼峰法：所有单词首字母大写（一般应用于变量类）。</p>
+<h3 id="标识符的限制规则"><a href="#标识符的限制规则" class="headerlink" title="标识符的限制规则"></a>标识符的限制规则</h3><p>数字不可开头，大小写敏感（num与NUM不同），不能用关键字</p>
+<h2 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h2><h3 id="整型"><a href="#整型" class="headerlink" title="整型"></a>整型</h3><p><img src="/c4d3b34af81a1f527551b30da1a91c9.png" alt="alt text"><br>sizeof（）函数<br>sizef（num1）</p>
+<h3 id="无符号数字和有符号数字"><a href="#无符号数字和有符号数字" class="headerlink" title="无符号数字和有符号数字"></a>无符号数字和有符号数字</h3><p>无符号：仅仅允许正数存在<br>有符号：可以允许负数存在<br><img src="/5130c0439cebb25fcad8fabe3db38e6.png" alt="alt text"><br>[]表示可选，可写可不写，如signed int和int一样<br>无符号的数字必须大于等于0<br>例如<br>signed int num &#x3D; 10;&#x2F;&#x2F;有符号<br>unsigned int num1 &#x3D; 10;&#x2F;&#x2F;无符号</p>
+<h3 id="实型"><a href="#实型" class="headerlink" title="实型"></a>实型</h3><p><img src="/df2babcceeaea18c0a483adbccdeb18.png" alt="alt text"></p>
+<h3 id="C-常量类型的确定"><a href="#C-常量类型的确定" class="headerlink" title="C++常量类型的确定"></a>C++常量类型的确定</h3><p><img src="/0fcb09aebdb0f681be677fe2b7f64b1.png" alt="alt text"><br>最小原则</p>
 ]]></content>
   </entry>
 </search>

@@ -129,6 +129,71 @@
                 <div class="container">
     
     
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    var tocbot_timer;
+    var DEPTH_MAX = 6; // 为 6 时展开所有
+    var tocbot_default_config = {
+        tocSelector: '.tocbot-list',
+        contentSelector: '.post-content',
+        headingSelector: 'h1, h2, h3, h4, h5',
+        orderedList: false,
+        scrollSmooth: true,
+        onClick: extend_click,
+    };
+
+    function extend_click() {
+        clearTimeout(tocbot_timer);
+        tocbot_timer = setTimeout(function() {
+            tocbot.refresh(obj_merge(tocbot_default_config, {
+                hasInnerContainers: true
+            }));
+        }, 420); // 这个值是由 tocbot 源码里定义的 scrollSmoothDuration 得来的
+    }
+
+    document.ready(function() {
+        tocbot.init(obj_merge(tocbot_default_config, {
+            collapseDepth: 1
+        }));
+    });
+
+    function expand_toc() {
+        var b = document.querySelector('.tocbot-toc-expand');
+        var expanded = b.getAttribute('data-expanded');
+        expanded ? b.removeAttribute('data-expanded') : b.setAttribute('data-expanded', true);
+        tocbot.refresh(obj_merge(tocbot_default_config, {
+            collapseDepth: expanded ? 1 : DEPTH_MAX
+        }));
+        b.innerText = expanded ? 'Expand all' : 'Collapse all';
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+    function obj_merge(target, source) {
+        for (var item in source) {
+            if (source.hasOwnProperty(item)) {
+                target[item] = source[item];
+            }
+        }
+        return target;
+    }
+</script>
+    
 
     
     <article class="post-wrap">
@@ -151,11 +216,12 @@
         </header>
 
         <div class="post-content">
-            <p>HTML</p>
-<p>HTML超文本标记语言–HyperText  Markup Language。</p>
+            <h1 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h1><h2 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h2><p>HTML超文本标记语言–HyperText  Markup Language。</p>
 <p>超文本？mean：链接</p>
-<p>标记？也叫标签，带尖括号的文本<br>标签的语法</p>
-<p>       <code>javascript  //指定语言  int main()  &#123;  const int n = 10;  printf(&quot;hello csdn!&quot;);  return 0;  &#125;</code></p>
+<h2 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h2><p>标记？也叫标签，带尖括号的文本<br>标签的语法</p>
+<blockquote>
+<p>加粗 <!-- 加粗 /*这是注释 */ --></p>
+</blockquote>
 
         </div>
 
@@ -206,7 +272,7 @@
                 <a class="prev" rel="prev" href="/2024/07/20/Markdown%E8%AF%AD%E6%B3%95/">Markdown</a>
             
             
-            <a class="next" rel="next" href="/2024/07/20/supermap%E5%85%A8%E5%9B%BDgis%E5%A4%A7%E8%B5%9B/">HTML</a>
+            <a class="next" rel="next" href="/2024/07/20/supermap%E5%85%A8%E5%9B%BDgis%E5%A4%A7%E8%B5%9B/">Suermap</a>
             
         </section>
 
