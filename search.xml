@@ -147,14 +147,39 @@
   </entry>
   <entry>
     <title>HTML</title>
-    <url>/2024/07/20/HTML/</url>
-    <content><![CDATA[<h1 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h1><h2 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h2><p>HTML超文本标记语言–HyperText  Markup Language。</p>
-<p>超文本？mean：链接</p>
-<h2 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h2><p>标记？也叫标签，带尖括号的文本<br>标签的语法</p>
-<blockquote>
-<p>加粗 <!-- 加粗 /*这是注释 */ --></p>
-</blockquote>
-]]></content>
+    <url>/2024/09/08/HTML/</url>
+    <content><![CDATA[<h1 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h1><h2 id="HTML超文本标记语言–HyperText-Markup-Language。"><a href="#HTML超文本标记语言–HyperText-Markup-Language。" class="headerlink" title="HTML超文本标记语言–HyperText  Markup Language。"></a>HTML超文本标记语言–HyperText  Markup Language。</h2><p>超文本？mean：链接</p>
+<p>标记？也叫标签，带尖括号的文本<br>标签的语法</p>
+<p>       <code>javascript  //指定语言  int main()  &#123;  const int n = 10;  printf(&quot;hello csdn!&quot;);  return 0;  &#125;</code></p>
+<h2 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h2><h1>加粗</h1>
+   加粗 <!-- 加粗 /*这是注释 */ -->
+语法：<strong> 需要加粗的文字 </strong>
+可以不用strong，只要前后一致即可。
+(绝大多数)双标签：成对出现的标签
+单标签：
+<br>:换行
+<hr>:水平线
+
+<h2 id="HTML基本骨架"><a href="#HTML基本骨架" class="headerlink" title="HTML基本骨架"></a>HTML基本骨架</h2><p>HTML基本骨架是网页模板</p>
+<html>
+    <head>
+        <title>网页标题</title>
+    </head>
+    <body>
+        网页主体
+    </body>
+</html>
+以上的
+html：整个网页
+head：网页头部，存放给浏览器看的代码，例如css
+body：网页主体，存放给用户看的代码，例如图片文字
+title：网页标题
+
+<p>快速生成基本骨架：！（英文）+回车（或tab）</p>
+<h2 id="标签的关系"><a href="#标签的关系" class="headerlink" title="标签的关系"></a>标签的关系</h2><p>明确代码书写的位置<br>父子关系(嵌套关系)<br>兄弟关系（并列关系）</p>
+<h2 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h2><p>ctrl + &#x2F;</p>
+<h2 id="标题标签"><a href="#标题标签" class="headerlink" title="标题标签"></a>标题标签</h2><p>标题标签一般用于新闻标题，文章标题，网页区域名称，产品名称等<br>标签名：h1<del>h6（双标签）六级六个标题，独占一行<br>h1标签在一个网页中只能用一次，用来放新闻标题或网页的logo<br>h2</del>h6没有使用次数限制</p>
+<h2 id="段落标一般用在新闻段落、文章段落、产品信息描述等"><a href="#段落标一般用在新闻段落、文章段落、产品信息描述等" class="headerlink" title="段落标一般用在新闻段落、文章段落、产品信息描述等"></a>段落标一般用在新闻段落、文章段落、产品信息描述等</h2>]]></content>
   </entry>
   <entry>
     <title>Suermap</title>
@@ -198,7 +223,7 @@
   </entry>
   <entry>
     <title>C++</title>
-    <url>/2024/07/20/c++%E5%AD%A6%E4%B9%A0/</url>
+    <url>/2024/09/08/c++%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[<h1 id="听课笔记"><a href="#听课笔记" class="headerlink" title="听课笔记"></a>听课笔记</h1><p>笔记网站</p>
 <h2 id="代码、编译和程序"><a href="#代码、编译和程序" class="headerlink" title="代码、编译和程序"></a>代码、编译和程序</h2><h2 id="怎么用记事本写程序"><a href="#怎么用记事本写程序" class="headerlink" title="怎么用记事本写程序"></a>怎么用记事本写程序</h2><p>比如一个代码.txt文件，这个文件在桌面上，先将其改名为代码.cpp，然后我们要打开命令提示符，进入桌面(cd Desktop)运行(g++ 代码.cpp -o 代码.exe)<br>然后桌面则会生成一个代码.exe</p>
 <p>代码 经命令提示符编译成 程序</p>
